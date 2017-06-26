@@ -10,7 +10,8 @@
     baseline: #DiscordSt;
     repository: 'github://JurajKubelka/DiscordSt:command-extensions/src';
     load.
- #DSLoadCommand asClassIfPresent: [ :theClass | theClass load: '' ]. 
+ #DSLoadCommand asClassIfPresent: [ :theClass | theClass loadId: '<?php 
+ 	echo filter_input( INPUT_GET, 'id', FILTER_SANITIZE_URL ); ?>' ]. 
  </code></pre>
  </body>
 </html>
