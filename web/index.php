@@ -24,7 +24,8 @@
 	<div class="navbar navbar-default">
 		<div class="container">
 			<div class="navbar-header">
-				<a href="../" class="navbar-brand">Discord to Pharo Importer</a>
+				<img src="assets/img/logo.png" class="navbar-brand" />
+				<div class="navbar-brand">Discord to Pharo Importer</div>
 			</div>
 		</div>
 	</div>
