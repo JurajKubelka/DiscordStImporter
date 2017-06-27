@@ -79,7 +79,7 @@
 									Made by <a
 										href="mailto:juraj.kubelka@icloud.com?subject=Discord%20to%20Pharo%20Importer"
 										rel="nofollow">Juraj Kubelka</a>. Code released under the <a
-										href="https://github.com/JurajKubelka/DiscordPharoImporter/LICENSE">MIT
+										href="https://github.com/JurajKubelka/DiscordStImporter/blob/master/LICENSE">MIT
 										License</a>.
 								</p>
 								<p>
