@@ -61,6 +61,8 @@
     load.
  #DSLoadCommand asClassIfPresent: [ :theClass | theClass loadId: '<?php
 	echo filter_input ( INPUT_GET, 'id', FILTER_SANITIZE_URL );
+	?>' data: '<?php
+	echo filter_input ( INPUT_GET, 'data', FILTER_SANITIZE_URL );
 	?>' ]. 
  </code>
 	</pre>
