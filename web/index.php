@@ -59,7 +59,9 @@
     baseline: #DiscordSt;
     repository: 'github://JurajKubelka/DiscordSt/src';
     load.
- #DSLoadCommand asClassIfPresent: [ :theClass | theClass loadId: '<?php
+ #DSLoadCommand asClassIfPresent: [ :theClass | theClass type: '<?php
+	echo filter_input ( INPUT_GET, 'fuel', FILTER_SANITIZE_URL );
+	?>' messages: '<?php
 	echo filter_input ( INPUT_GET, 'id', FILTER_SANITIZE_URL );
 	?>' data: '<?php
 	echo filter_input ( INPUT_GET, 'data', FILTER_SANITIZE_URL );
