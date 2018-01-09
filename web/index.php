@@ -57,7 +57,7 @@
 		<code>
  Metacello new
     baseline: #DiscordSt;
-    repository: 'github://JurajKubelka/DiscordSt/src';
+    repository: 'github://JurajKubelka/DiscordSt:rest-refactoring/src';
     load.
  #DSLoadCommand asClassIfPresent: [ :theClass | theClass type: '<?php
 	echo filter_input ( INPUT_GET, 'fuel', FILTER_SANITIZE_URL );

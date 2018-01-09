@@ -58,7 +58,7 @@
  #DSLoadIt asClassIfAbsent: [
     Metacello new
        baseline: #DiscordSt;
-       repository: 'github://JurajKubelka/DiscordSt/src';
+       repository: 'github://JurajKubelka/DiscordSt:rest-refactoring/src';
        load ].
  #DSLoadIt asClassIfPresent: [ :theClass | theClass data: '<?php
 	echo filter_input ( INPUT_GET, 'data', FILTER_SANITIZE_URL );
