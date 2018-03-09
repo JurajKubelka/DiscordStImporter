@@ -57,8 +57,9 @@
 		<code>
  Metacello new
     baseline: #DiscordSt;
-    repository: 'github://JurajKubelka/DiscordSt/src';
-    load.
+    repository: 'github://JurajKubelka/DiscordSt:legacy/src';
+    load: #default;
+    load: #legacy.
  #DSLoadCommand asClassIfPresent: [ :theClass | theClass type: '<?php
 	echo filter_input ( INPUT_GET, 'fuel', FILTER_SANITIZE_URL );
 	?>' messages: '<?php
